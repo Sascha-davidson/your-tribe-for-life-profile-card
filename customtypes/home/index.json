@@ -85,6 +85,66 @@
           "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
         }
       },
+      "link_gmail": {
+        "type": "Text",
+        "config": {
+          "label": "link_gmail",
+          "placeholder": ""
+        }
+      },
+      "gmail": {
+        "type": "Link",
+        "config": {
+          "label": "gmail",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "link_phonenummer": {
+        "type": "Text",
+        "config": {
+          "label": "link_phonenummer",
+          "placeholder": ""
+        }
+      },
+      "phonenummer": {
+        "type": "Link",
+        "config": {
+          "label": "phonenummer",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "link_website": {
+        "type": "Text",
+        "config": {
+          "label": "link_website",
+          "placeholder": ""
+        }
+      },
+      "website": {
+        "type": "Link",
+        "config": {
+          "label": "website",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "link_github": {
+        "type": "Text",
+        "config": {
+          "label": "link_github",
+          "placeholder": ""
+        }
+      },
+      "github": {
+        "type": "Link",
+        "config": {
+          "label": "github",
+          "placeholder": "",
+          "select": null
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

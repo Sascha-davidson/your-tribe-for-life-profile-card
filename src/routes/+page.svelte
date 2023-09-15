@@ -19,14 +19,14 @@
         <hr>
         <div class="contact-info">
           <h2>Contact</h2>
-          <a href="#">saschadavidson1@gmail.com</a>
-          <a href="#">06 11 48 04 03</a>
-          <a href="#">saschadavidson.nl</a>
-          <a href="#">Mijn gitHub profiel</a>
+          <a href="{data.gmail}">{data.link_gmail}</a>
+          <a href="{data.phonenummer}">{data.link_phonenummer}</a>
+          <a href="{data.website}">{data.link_website}</a>
+          <a href="{data.github}">{data.link_github}</a>
         </div>
         <hr>
-        <h2>Bio</h2>
-        <p></p>
+        <h2>{data.bio_title}</h2>
+        <p>{data.bio_tekst}</p>
       </div>
 
     </div>
