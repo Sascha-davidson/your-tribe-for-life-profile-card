@@ -1,0 +1,124 @@
+{
+  "id": "home",
+  "label": "home",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "background_image": {
+        "type": "Image",
+        "config": {
+          "label": "background_image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "card_banner": {
+        "type": "Image",
+        "config": {
+          "label": "card_banner",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "mugshot": {
+        "type": "Image",
+        "config": {
+          "label": "mugshot",
+          "constraint": {
+            "height": 500,
+            "width": 500
+          },
+          "thumbnails": []
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "name",
+          "placeholder": ""
+        }
+      },
+      "nickname": {
+        "type": "Text",
+        "config": {
+          "label": "nickname",
+          "placeholder": ""
+        }
+      },
+      "contact_title": {
+        "type": "Text",
+        "config": {
+          "label": "contact_title",
+          "placeholder": ""
+        }
+      },
+      "bio_title": {
+        "type": "Text",
+        "config": {
+          "label": "bio_title",
+          "placeholder": ""
+        }
+      },
+      "bio_tekst": {
+        "type": "StructuredText",
+        "config": {
+          "label": "bio_tekst",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}
